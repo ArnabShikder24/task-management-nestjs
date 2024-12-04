@@ -7,7 +7,6 @@ import { TaskStatus } from './tasks-status.enum';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
 import { GetTaskFilterDto } from './dto/get-task-filter.dto';
 import { User } from 'src/auth/user.entity';
-import { use } from 'passport';
 
 @Injectable()
 export class TasksService {
